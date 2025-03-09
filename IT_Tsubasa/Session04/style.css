@@ -1,0 +1,16 @@
+body{
+    background-color: #ddd;
+}
+.container h1{
+    font-size: 30px;
+    background-color: bisque;
+    color: blueviolet;
+}
+.container p{
+    font-size: 15px;
+}
+.container{
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}

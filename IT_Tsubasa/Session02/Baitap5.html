@@ -4,30 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .title{
+            display: inline-block;
+            margin-left: 5px;
+        }
+        form{
+            border: 1px solid black;
+            width: 180px;
+            height: 250px;
+           
+          
+        }
+    </style>
 </head>
 <body>
-    <h1>Đăng ký</h1>
-    <form action="http://www.myserver.com" method="POST">
-        <label for="Họ và tên">Họ và tên: </label>
+    <form  action="http://www.myserver.com" method="POST" >
+        <label class="title" for="Họ và tên">Họ và tên: </label>
         <br/> 
-        <input id="Họ và tên" type="text" name="THọ và tên" /> 
+        <input class="title" id="Họ và tên" type="text" name="THọ và tên" /> 
         <br/> 
-        <label for="Email">Email:</label>
+        <label class="title" for="Email">Email:</label>
         <br/> 
-        <input id="Email" type="email" name="Email" /> 
+        <input class="title" id="Email" type="email" name="Email" /> 
         <br/>
-        <label for="Số điện thoại">Số điện thoại:</label>
+        <label class="title" for="Số điện thoại">Số điện thoại:</label>
         <br/> 
-        <input id="Số điện thoại" type="tel" name="Số điện thoại" />
+        <input class="title" id="Số điện thoại" type="tel" name="Số điện thoại" />
         <br/> 
-        <label> Giới tính: </label>
+        <label class="title"> Giới tính: </label>
         <br/>
-        <input type="radio" name="Giới tính" value="Nam"/>
-        <label> Nam </label>
-        <input type="radio" name="Giới tính" value="Nữ"/>
-        <label> Nữ </label>
+        <input class="title" type="radio" name="Giới tính" value="Nam"/>
+        <label class="title"> Nam </label>
+        <input class="title" type="radio" name="Giới tính" value="Nữ"/>
+        <label class="title"> Nữ </label>
         <br/>
-        <button>Đăng ký</button>
+        <button class="title">Đăng ký</button>
 
     </form>
 </body>

@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .title{
+            display: inline-block;
+            margin-top: 20px;
+        }
+        /* 
+        trước e học có thẻ inline thì những thẻ inline sẽ có display:inline
+        mà inline thì nó không set được margin-top nên e phải đổi giá trị display:inline sang display:inline-block;
+        thẻ block
+        
+        */
+    </style>
 </head>
 <body>
     <h1> Liên Hệ Với Chúng Tôi  </h1>
@@ -12,15 +24,19 @@
         <br/> 
         <input id="Họ và tên" type="text" name="Họ và tên" /> 
         <br/> 
-        <label for="Email">Email:</label>
+        <label class="title" for="Email">Email:</label>
+        <!-- 
+            margin-top: là khoảng cách bên trên giữa các phần tử
+            muốn dùng margin-top được thì phần tử phải có dislay=block hoặc inline-block
+         -->
         <br/> 
         <input id="Email" type="email" name="Email" /> 
         <br/>
-        <label for="Tin nhắn ">Tin nhắn:</label>
+        <label class="title"  for="Tin nhắn ">Tin nhắn:</label>
         <br/> 
         <textarea rows="4" cols="60"></textarea> 
         <br/>
-        <button>Gửi </button>
+        <button class="title" >Gửi </button>
 
     </form>
 </body>

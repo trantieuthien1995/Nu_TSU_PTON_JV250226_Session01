@@ -1,72 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <form>
-    <table style="background-color: antiquewhite;"  width="500px" height="200"  > 
-    <tr>
-        <th style= "background-color: chocolate; color: white;" colspan="4"  > SỞ THÍCH CỦA BẠN </th>
-    </tr>
-    <tr>
-        <td style="text-align: right; color: blue"> Họ và tên </td>
-        <td colspan="2">
-             <input type="text" name="Họ và tên" size="30" />
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: right; color: blue"> Email </td>
-        <td colspan="2"> 
-            <input type="email" name="Email" size="20" />
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: right; color: blue;"> Sở thích </td>
-        <td style="color: coral;">
-            <input type="checkbox" name="Thể thao" />
-        <label> Thể thao</label>
-        </td>
-        <td style="color: coral;">
-            <input type="checkbox" name="Âm nhạc" />
-        <label> Âm nhạc</label>
-        </td>
-        <td style="color: coral;">
-            <input type="checkbox" name="Đọc sách" />
-        <label> Đọc sách</label>
-        </td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td style="color: coral;">
-            <input type="checkbox" name="Lướt web " />
-            <label> Lướt web </label>
-        </td>
-        <td style="color: coral;">
-            <input type="checkbox" name="Chơi game" />
-            <label> Chơi game</label>
-        </td>
-        <td style="color: coral;">
-            <input type="checkbox" name="Điện ảnh" />
-            <label> Điện ảnh </label>
-        </td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td style="color: coral;">
-            <input type="checkbox" name="Du lịch " />
-        <label> Du lịch</label> 
-        </td>
-    </tr>
-    <tr>
-        <td> &nbsp; </td>
-        <td > <button>Gửi thông tin</button > </td>
-        <td>  <button>Nhập lại </button></td>
-    </tr>
-    </table>
 
-    </form>
+<body>
+    <!-- 
+        10px là độ dày
+        solid là kiểu của đường viền
+        black là màu đen của viền
+     -->
+    <div style="border: 1px solid black ; width: 500px;" >
+        <table style="background-color: antiquewhite; border: 10px solid burlywood;" width="500px" height="200">
+            <tr>
+                <th style="background-color: chocolate; color: white;" colspan="4"> SỞ THÍCH CỦA BẠN </th>
+            </tr>
+            <tr>
+                <td style="text-align: right; color: blue"> Họ và tên </td>
+                <td colspan="2">
+                    <input type="text" name="Họ và tên" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right; color: blue"> Email </td>
+                <td colspan="2">
+                    <input type="email" name="Email" size="20" />
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right; color: blue;"> Sở thích </td>
+                <td style="color: coral;">
+                    <input type="checkbox" name="Thể thao" />
+                    <label> Thể thao</label>
+                </td>
+                <td style="color: coral;">
+                    <input type="checkbox" name="Âm nhạc" />
+                    <label> Âm nhạc</label>
+                </td>
+                <td style="color: coral;">
+                    <input type="checkbox" name="Đọc sách" />
+                    <label> Đọc sách</label>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td style="color: coral;">
+                    <input type="checkbox" name="Lướt web " />
+                    <label> Lướt web </label>
+                </td>
+                <td style="color: coral;">
+                    <input type="checkbox" name="Chơi game" />
+                    <label> Chơi game</label>
+                </td>
+                <td style="color: coral;">
+                    <input type="checkbox" name="Điện ảnh" />
+                    <label> Điện ảnh </label>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td style="color: coral;">
+                    <input type="checkbox" name="Du lịch " />
+                    <label> Du lịch</label>
+                </td>
+            </tr>
+            <tr>
+                <td> &nbsp; </td>
+                <td> <button>Gửi thông tin</button> </td>
+                <td> <button>Nhập lại </button></td>
+            </tr>
+        </table>
+
+    </div>
 </body>
+
 </html>
