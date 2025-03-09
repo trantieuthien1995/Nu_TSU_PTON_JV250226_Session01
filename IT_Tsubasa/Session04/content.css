@@ -1,0 +1,18 @@
+.content{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 800px;
+    font-size: 18px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 10px;
+}
+.content p {
+    margin-left: 5px;
+
+}
+.content p span {
+    font-weight: bold;
+    color: blue;
+}
