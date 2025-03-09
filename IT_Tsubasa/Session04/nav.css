@@ -1,0 +1,27 @@
+.menu{
+    background-color:lightslategray;
+    min-height: 30px;
+    margin-top: 0%;
+}
+.container{
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+.container h1{
+    font-size: 30px;
+    background-color: bisque;
+    color: blueviolet;
+    line-height: 100px;
+    margin-bottom: 0%;
+}
+
+.menu li{
+    display: inline;
+    padding: 30px 30px;
+    line-height: 30px;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
