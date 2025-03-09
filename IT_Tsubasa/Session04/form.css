@@ -1,0 +1,28 @@
+.container h1{
+    margin-left: 20px;
+}
+.container form{
+    margin-left: 40px;
+    line-height: 20px;
+}
+
+.Menu{
+    display: inline-block;
+    margin-top: 20px;
+}
+.send{
+    display: inline-block;
+    margin-top: 20px;
+    width: 500px;
+    line-height: 30px;
+    background-color: green;
+    color: white;
+    border: 0ch;
+    border-radius: 5px;
+}
+.title{
+    display: inline-block;
+    line-height: 30px;
+    width: 500px;
+    border-radius: 5px;
+}
