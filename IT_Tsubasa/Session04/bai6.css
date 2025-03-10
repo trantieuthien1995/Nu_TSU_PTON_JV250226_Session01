@@ -1,0 +1,23 @@
+.Menu li{
+padding: 0 10px 10px;
+list-style-type: none;
+width: 200px;
+height: 100px;
+background-color: darkgrey;
+
+}
+.Menu ul li a{
+    text-decoration: none;
+   
+   
+}
+.Menu h1{
+    position: relative;
+    left: 300px;
+    top: 130px;
+}
+.Menu p {
+    position: relative;
+    left: 300px;
+    top: 130px;
+}
