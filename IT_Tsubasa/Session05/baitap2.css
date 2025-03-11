@@ -1,0 +1,13 @@
+.List ul li{
+    list-style-type: none;
+    border: 1px solid black;
+    width: 600px;
+    height: 20px;
+    padding: 15px;
+    margin: 10px;
+    background-color: darkgrey;
+    color: white;
+}
+.List ul li:hover{
+    background-color: blue;
+}
