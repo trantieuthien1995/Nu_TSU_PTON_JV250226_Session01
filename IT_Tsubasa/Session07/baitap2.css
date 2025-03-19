@@ -1,0 +1,18 @@
+.parent{
+    width: 850px;
+    height: 150px;
+    background-color: azure;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box01{
+    width: 180px;
+    height: 50px;
+    background-color: lightcoral;
+    text-align: center;
+    line-height: 50px;
+}

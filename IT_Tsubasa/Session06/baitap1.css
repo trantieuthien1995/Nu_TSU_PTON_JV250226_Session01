@@ -1,0 +1,40 @@
+.container{
+    margin: 0 auto;
+    width: 800px;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.container h1{
+    text-align: center;
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+    line-height: 100px;
+    margin-bottom: 0%;
+}
+.menu{
+    background-color:blanchedalmond;
+    color: white;
+    min-height: 30px;
+    margin-top: 0%;
+  
+}
+.menu li{
+    display:inline;
+    padding: 30px 30px;
+    line-height: 30px;
+    
+}
+.menu li a{
+    margin: 0 auto;
+    width: 800px;
+    display:inline;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.container img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}

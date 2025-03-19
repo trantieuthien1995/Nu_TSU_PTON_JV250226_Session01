@@ -1,0 +1,33 @@
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 200px calc(100% - 200px);
+    gap: 10px;
+}
+.box1{
+    height: 30px;
+    background-color: rgb(36, 36, 181);
+    color: white;
+    display: flex;
+    align-items: center;
+    grid-column: span 2;
+}
+.box2{
+    height: 150px;
+    background-color: rgb(79, 147, 79);
+    color: white;
+}
+.box3{
+    height: 150px;
+    background-color: rgb(167, 64, 64);
+    color: white;
+}
+.box4{
+    height: 30px;
+    background-color: rgb(118, 71, 162);
+    color: white;
+    display: flex;
+    align-items: center;
+    grid-column: span 2;
+}
