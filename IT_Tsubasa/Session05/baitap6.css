@@ -1,0 +1,192 @@
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+position: relative;
+}
+.parent p{
+    background-color: rgb(179, 168, 168);
+    font-size: 80px;
+    text-align: center;
+    line-height: 350px;
+    font-weight: bold;
+    color: white;
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -73%);
+    transition: 1s;
+
+}
+.parent p:hover{
+background-color: aqua;
+}
+
+.container1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+position: relative;
+}
+.parent1 p{
+    background-color: rgb(179, 168, 168);
+    font-size: 50px;
+    text-align: center;
+    line-height: 350px;
+    font-weight: bold;
+    color: white;
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -64%);
+
+}
+.parent1 p:hover{
+background-color: aqua;
+}
+
+.container2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.parent2 p{
+    background-color: rgb(179, 168, 168);
+    font-size: 50px;
+    text-align: center;
+    line-height: 350px;
+    font-weight: bold;
+    color: white;
+    width: 450px;
+    height: 350px;
+   position: absolute;
+   transform: translate(25px,-25px);
+    transition: 3s;
+
+}
+.parent2 p:hover{
+    transform:translate(0,0);
+    transform: scale(1.1);
+   
+}
+.container3{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+}
+.parent3 p{
+    background-color: rgb(179, 168, 168);
+    font-size: 50px;
+    text-align: center;
+    line-height: 350px;
+    font-weight: bold;
+    color: white;
+    width: 450px;
+    height: 350px;
+   position: absolute;
+   transform: translate(5.5%, -7%);
+    transition: 1s;
+
+}
+.parent3 p:hover{
+background-color: aqua;
+transform: scale(0.9);}
+
+.container4{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+position: relative;
+}
+.parent4 p{
+    background-color: rgb(179, 168, 168);
+    font-size: 50px;
+    text-align: center;
+    line-height: 350px;
+    font-weight: bold;
+    color: white;
+    width: 450px;
+    height: 350px;
+   position: absolute;
+   transform: translate(5.5%, -7%);
+    transition: 1s;
+    overflow: hidden;
+
+}
+.parent4 p:hover{
+background-color: aqua;
+transform: rotate(-10deg);
+}
+
+
+.container5{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+position: relative;
+}
+.parent5 p{
+    background-color: rgb(179, 168, 168);
+    font-size: 50px;
+    text-align: center;
+    line-height: 350px;
+    font-weight: bold;
+    color: white;
+    width: 450px;
+    height: 350px;
+   position: absolute;
+   transform: translate(5.5%, -7%);
+    transition: 1s;
+
+}
+.parent5 p:hover{
+background-color: aqua;
+border-radius: 1000px;
+}
+
+.container6{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+position: relative;
+}
+.parent6 p{
+    background-color: rgb(179, 168, 168);
+    font-size: 50px;
+    text-align: center;
+    line-height: 350px;
+    font-weight: bold;
+    color: white;
+    width: 450px;
+    height: 350px;
+   position: absolute;
+   transform: translate(5.5%, -7%);
+    transition: 1s;
+
+}
+.parent6 p:hover{
+border: 30px solid blue;
+}

@@ -1,0 +1,92 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav .navbar {
+    background-color: green;
+    width: 100%;
+    min-height: 40px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.navbar .name {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar .menu {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .menu li {
+    padding: 8px;
+    display: inline;
+    list-style: none;
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.content {
+    display: block;
+    width: 100%;
+    min-height: 600px;
+    margin: 10px 10px;
+}
+
+.content1 {
+    float: left;
+    width: 19%;
+    height: 450px;
+    background-color: gainsboro;
+}
+
+.content1 h2 {
+    margin-left: 10px;
+}
+
+.content2 {
+    float: left;
+    width: 79%;
+    height: 450px;
+    background-color: rgb(246, 240, 240);
+}
+
+.B1,
+.B2 {
+    margin-left: 10px;
+}
+
+.B1 img {
+    width: 220px;
+    height: 110px;
+}
+
+.B2 img {
+    width: 220px;
+    height: 110px;
+}
+
+.container footer {
+    float: left;
+    min-height: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}

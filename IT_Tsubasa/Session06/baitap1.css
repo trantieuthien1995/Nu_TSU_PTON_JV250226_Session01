@@ -1,40 +1,64 @@
 .container{
     margin: 0 auto;
     width: 800px;
-    
     font-family: 'Times New Roman', Times, serif;
 }
-.container h1{
+.container header{
+    min-height: 40px;
+    width: 100%;
     text-align: center;
     font-size: 30px;
     background-color: blue;
     color: white;
-    line-height: 100px;
+    line-height: 40px;
     margin-bottom: 0%;
+    font-weight: bold;
 }
 .menu{
-    background-color:blanchedalmond;
+    width: 100%;
+    background-color:blue;
     color: white;
     min-height: 30px;
     margin-top: 0%;
-  
-}
-.menu li{
-    display:inline;
-    padding: 30px 30px;
-    line-height: 30px;
-    
-}
-.menu li a{
-    margin: 0 auto;
-    width: 800px;
-    display:inline;
-    color: white;
-    text-decoration: none;
     text-align: center;
 }
-.container img{
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
+.menu ul{
+    padding:0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.menu ul li{
+    display:inline;
+    line-height: 30px;
+    padding: 0px 20px 0px;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.content img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.content p{
+    display: inline;
+    width: 500px;
+}
+.container footer{
+    min-height: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: rgb(177, 176, 176);
+    text-align: center;
+}
+.container span{
+    color: blue;
+    text-decoration: underline;
 }

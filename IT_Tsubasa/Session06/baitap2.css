@@ -1,0 +1,52 @@
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 350px;
+    height: 400px;
+    font-weight: bold;
+}
+
+.container form {
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0%;
+}
+
+.T1,.T3,.T5,.T7 {
+    display: flex;
+}
+
+.T1,.T3,.T5 {
+    margin-top: 15px;
+}
+
+.T2,.T4,.T6 {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.T7 {
+    display: flex;
+    padding: 0%;
+    border: none;
+    width: 308px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}

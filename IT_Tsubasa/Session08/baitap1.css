@@ -1,0 +1,15 @@
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    width: 620px;
+    display: flex;
+    
+}
+.box1{
+    display: flex;
+    flex: 1 0 200px;
+   gap: 5px;
+   height: 80px;
+   justify-content: center;
+   align-items: center;
+}

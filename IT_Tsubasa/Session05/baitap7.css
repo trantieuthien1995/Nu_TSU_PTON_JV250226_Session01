@@ -1,0 +1,252 @@
+.container1{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 1200px;
+}
+.container2{
+    display: flex;
+    width: 1200px;
+}
+.Drive{
+    flex-basis: 25%;
+    margin-left: 0%;
+    margin-top: 20px;
+    color: rgb(0, 85, 255);
+ }
+ .fa-google-drive{
+    color: rgb(47, 120, 255);
+    margin-right: 15px;
+ }
+.search{
+    justify-content: center;
+    position: relative;
+    margin-top: 15px;
+    flex-basis: 75%;
+    height: 42px;
+    border: 2px solid #2980b9;
+    padding: 0% 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.S{
+    border: none;
+    height: 100%;
+    width: 640px;
+    padding: 0 5px;
+    border-radius: 50px; 
+    padding-left: 35px;
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+    color: #2980b9;
+    width: 10px;
+}
+
+.fa-circle-exclamation{
+    margin-left: 50px;
+    margin-top: 24px;
+    font-size: 25px;
+    color: rgb(255, 192, 218);
+    margin-right: 20px;
+}
+.fa-gear{
+    font-size: 25px;
+    color: rgb(255, 192, 218);
+    margin-right: 20px;
+    margin-top: 24px;
+}
+.fa-comment-dots{
+    font-size: 25px;
+    color: rgb(255, 192, 218);
+    margin-right: 20px;
+    margin-top: 24px;
+}
+.fa-list-ul{
+    font-size: 25px;
+    color: rgb(255, 192, 218);
+    margin-top: 24px;
+}
+.container3{
+    display: flex;
+}
+.parent1{
+    flex-basis: 20%;
+    height: 1000px;
+}
+.menudoc{
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    padding-top: 20px;
+    line-height: 30px;
+    text-align: left;
+    }
+    .menudoc li a{
+        display: inline-block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+    .parent1 ul li:hover{
+        background-color:  gainsboro;
+    }
+.parent2{
+    flex-basis: 80%;
+    height: 1000px;
+    background-color: whitesmoke;
+    color: #000;
+    border-radius: 14px;
+    }
+.parent2 button{
+    display: inline;
+    }
+.group{
+    display: flex;
+    width: 100%;
+    }
+    .B1{
+        font-size: 25px;
+        display: flex;
+        text-align: left;
+        margin-top: 10px;
+        padding: 1px 16px;
+        width: auto;
+        height: 40px;
+        background-color:  whitesmoke;
+        border: none;
+        border-radius: 50px;
+    }
+    .B1:hover{
+        background-color: gainsboro;
+    }
+    .fa-greater-than{
+        font-size: 15px;
+        margin-right: 10px;
+        padding-top: 0%;
+        margin-top: 24px;
+    }   
+.D{
+    display: flex;
+    width: 250px;
+}
+.D-select{
+    font-weight: 80px;
+    display: flex;
+    width:250px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    font-size: 25px;
+    justify-content: center;
+    padding: 4px ;
+    justify-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.D-select:hover{
+    background-color: gainsboro;
+}
+.fa-user-group{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 21px;
+}
+.D1{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 20px;
+    border: none;
+}
+.DS1{
+    width: 80px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    border: 1px solid #2980b9;
+    margin-right: 10px;
+}
+.DS2{
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.DS3{
+    width: 220px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.DS4{
+    width: 80px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+}
+.DS1:hover{
+    background-color:  gainsboro;
+}
+.DS2:hover{
+    background-color:  gainsboro;
+}
+.DS3:hover{
+    background-color:  gainsboro;
+}
+.DS4:hover{
+    background-color:  gainsboro;
+}
+    .style{
+        margin-top: 5%;
+        line-height: 40px;
+        width: calc(1200px - 30%);
+        margin-left: 20px; 
+    }
+    .style, th, td{
+        border-bottom: 1px solid black ;
+        border-collapse: collapse;
+    }
+    .style th, td{
+        padding: 1px 10px;
+    }
+    .style thead th{
+        text-align: left;
+        padding-left: 10px;
+    }
+    .T1,.T2{
+        width: 450px;
+    }
+    .fa-arrow-down{
+        margin-left: 25px;
+    }
+    .fa-caret-down{
+        margin-left: 10px;
+    }
+    .fa-image{
+        margin-right: 15px;
+        color: red;
+    }
+    .fa-s{
+        margin-right: 10px;
+        color: rgb(34, 0, 255);
+    }
+    .style.table-hover tbody tr:hover{
+        background-color:  gainsboro;
+    }
+    
+
